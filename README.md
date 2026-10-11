@@ -1,10 +1,12 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/king-already-ascii-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/king-already-ascii-light.svg">
-  <img src="assets/king-already-ascii-dark.svg" alt="Terminal-style ASCII banner for King Already, Full-Stack Developer, featuring a KA monogram and engineering technologies" width="100%">
-</picture>
+
+
+<img src="assets/king-already-ascii-dark.svg" alt="Terminal-style ASCII banner for King Already, Full-Stack Developer, featuring a KA monogram and engineering technologies" width="100%">
+
+
+  
+
 
 # King Already
 
