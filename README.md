@@ -1,12 +1,9 @@
 <div align="center">
 
-
-
-<img src="assets/king-already-ascii-dark.svg" alt="Terminal-style ASCII banner for King Already, Full-Stack Developer, featuring a KA monogram and engineering technologies" width="100%">
-
-
-  
-
+<picture>
+  <source media="(max-width: 620px)" srcset="assets/king-already-ascii-mobile.svg">
+  <img src="assets/king-already-ascii-dark.svg" alt="King Already, full-stack developer, illustrated as an animated ASCII KA terminal" width="100%">
+</picture>
 
 # King Already
 
@@ -32,22 +29,18 @@ I believe great software requires more than functional code. It demands clear ar
 
 ### Engineering Focus
 
-| Build | Engineer | Refine |
-| :--- | :--- | :--- |
-| Full-stack applications | API and system architecture | Responsive UI and accessibility |
-| Backend services | Data models and workflows | Purposeful interface motion |
-| Product experiences | Testing and verification | Performance and usability |
+- **Build:** Full-stack applications, backend services, and product experiences.
+- **Engineer:** API architecture, data models, workflows, automated testing, and verification.
+- **Refine:** Responsive interfaces, accessibility, meaningful motion, performance, and usability.
 
 ### Technology Toolbox
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | `TypeScript` `JavaScript` `Python` `SQL` `HTML` `CSS` |
-| **Frontend** | `React` `Next.js` |
-| **Backend** | `Node.js` `NestJS` `REST APIs` |
-| **Data** | `PostgreSQL` `Prisma` |
-| **Quality & Delivery** | `Git` `GitHub Actions` `Jest` `Pytest` |
-| **Cloud & Design** | `Azure` `Figma` `UI/UX` `Motion` |
+- **Languages:** `TypeScript` · `JavaScript` · `Python` · `SQL` · `HTML` · `CSS`
+- **Frontend:** `React` · `Next.js`
+- **Backend:** `Node.js` · `NestJS` · `REST APIs`
+- **Data:** `PostgreSQL` · `Prisma`
+- **Quality & Delivery:** `Git` · `GitHub Actions` · `Jest` · `Pytest`
+- **Cloud & Design:** `Azure` · `Figma` · `UI/UX` · `Motion`
 
 ### How I Approach Software
 
