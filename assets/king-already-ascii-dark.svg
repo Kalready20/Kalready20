@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-label="ASCII-inspired terminal banner for King Already, full-stack developer">
+<defs>
+  <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#7DE0BF" stop-opacity=".14"/><stop offset="1" stop-color="#78CBF6" stop-opacity="0"/></linearGradient>
+  <clipPath id="screen"><rect x="18" y="18" width="1164" height="514" rx="19"/></clipPath>
+</defs>
+<style>
+@keyframes cursor { 0%,45% {opacity:1} 46%,80% {opacity:.15} 81%,100% {opacity:1} }
+@keyframes enter { from {opacity:.18; transform:translateY(7px)} to {opacity:1; transform:translateY(0)} }
+@keyframes scan {0% {transform:translateY(-30px);opacity:0} 15%{opacity:.55} 85%{opacity:.55} 100%{transform:translateY(370px);opacity:0}}
+.cursor {animation:cursor 1.8s steps(1,end) infinite}
+.info {animation:enter 1s ease-out both}
+.scan {animation:scan 7s linear infinite}
+@media (prefers-reduced-motion:reduce) {.cursor,.info,.scan {animation:none!important;opacity:1!important} .scan{opacity:0!important}}
+</style>
+<rect width="1200" height="550" rx="25" fill="#080F1B"/>
+<rect x="18" y="18" width="1164" height="514" rx="19" fill="#0F1B2B" stroke="#2B445D" stroke-width="2"/>
+<path d="M 19 82 H 1181" stroke="#2B445D"/>
+<rect x="19" y="19" width="1162" height="63" rx="18" fill="#152337"/>
+<circle cx="54" cy="50" r="7" fill="#F58A7F"/><circle cx="78" cy="50" r="7" fill="#F7C66A"/><circle cx="102" cy="50" r="7" fill="#79DDBA"/>
+
+<text x="137" y="57" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18" font-weight="400" class="" >king@github / terminal</text>
+<text x="1120" y="57" fill="#597289" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="" text-anchor="end">README / 01</text>
+<line x1="530" y1="114" x2="530" y2="495" stroke="#2B445D" stroke-width="2"/>
+<rect x="50" y="106" width="445" height="379" rx="11" fill="#122239" stroke="#2B445D"/>
+<rect x="53" y="109" width="439" height="373" rx="9" fill="url(#glow)"/>
+<text x="71" y="138" fill="#78CBF6" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="17" font-weight="600" class="" >[ ASCII ART / KING_ALREADY ]</text>
+<text x="62" y="169.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">.               :      .                  </text>
+<text x="62" y="181.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     :*+*:    . *+*+:      +*+*+.         </text>
+<text x="62" y="193.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@##     #@@#@:  .  +#@@@@:         </text>
+<text x="62" y="205.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     +@@@#    +@@@#:      ###@@@+        :</text>
+<text x="62" y="217.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *#@@#.  :@@@@+     : %#@@@##         </text>
+<text x="62" y="229.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">:    +@@@%  :@#@@#    .  :@#@#@#@.        </text>
+<text x="62" y="241.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     +@@@# .#@#@%        *@#@*@@@*        </text>
+<text x="62" y="253.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@@# #@@##:        #@##:@@@+        </text>
+<text x="62" y="265.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     +##@#+@@#@:  .      @### @@@#        </text>
+<text x="62" y="277.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@#@@#@@+         :@@#+ %@#@:       </text>
+<text x="62" y="289.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     +@#@@@@#@#         *@@#* *@#@*.  .   </text>
+<text x="62" y="301.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@@@#@@@@:        %@@#: :@@#%.      </text>
+<text x="62" y="313.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">   . +@###@@@@@%        ####   @@@@       </text>
+<text x="62" y="325.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05"> .   *@@@#@+@@@@+      :@@@%**+%@@#: .    </text>
+<text x="62" y="337.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">  :  +@@@#+ ##@##      +@#@#@#@@@@@*      </text>
+<text x="62" y="349.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@#%  :@@@#+     #@@@#@@@#@@@%   .  </text>
+<text x="62" y="361.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@@#.  #@@@@  : :@@@@#####@@@@      </text>
+<text x="62" y="373.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     +@@@#   :@@#@+   +@@@%     %@@@:  : .</text>
+<text x="62" y="385.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@@#    *#@#@:  #@@@+  .  *@#@*     </text>
+<text x="62" y="397.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     +@@@%    :@#@@*  @@@@: .   :#@@#     </text>
+<text x="62" y="409.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">     *@@@%     +@@@@::@@@@       @@#@:    </text>
+<text x="62" y="421.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">  . .+#@@#      #@@@#+@@@%       %@@#*    </text>
+<text x="62" y="433.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">      ::::    . :::::::::    .   ::::     </text>
+<text x="62" y="445.0" fill="#9DB2C9" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">                      :       .   .       </text>
+<text x="62" y="457.0" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.3" font-weight="400" class="ascii" xml:space="preserve" letter-spacing="0.05">                 :               .       .</text>
+<text x="74" y="461" fill="#78CBF6" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" font-weight="600" class="" >[ KA ] :: BUILT WITH INTENTION</text>
+<text x="564" y="129" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="20" font-weight="600" class="info" >~/profile $ whoami</text>
+<text x="565" y="184" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="38" font-weight="700" class="info" >KING ALREADY</text>
+<text x="566" y="220" fill="#78CBF6" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="21" font-weight="600" class="info" >FULL-STACK DEVELOPER</text>
+<path d="M 565 238 H 1133" stroke="#2B445D" stroke-width="2"/>
+<text x="570" y="270" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">handle    </text>
+<text x="723" y="270" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >@Kalready20</text>
+<text x="570" y="296" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">languages </text>
+<text x="723" y="296" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >TypeScript · JavaScript · Python · SQL</text>
+<text x="570" y="322" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">frontend  </text>
+<text x="723" y="322" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >React · Next.js · HTML · CSS</text>
+<text x="570" y="348" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">backend   </text>
+<text x="723" y="348" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >Node.js · NestJS · REST APIs</text>
+<text x="570" y="374" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">database  </text>
+<text x="723" y="374" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >PostgreSQL · Prisma</text>
+<text x="570" y="400" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">delivery  </text>
+<text x="723" y="400" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >Git · GitHub Actions · Azure</text>
+<text x="570" y="426" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">design    </text>
+<text x="723" y="426" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >Figma · UI/UX · Motion</text>
+<text x="570" y="452" fill="#7DE0BF" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="info" xml:space="preserve">principles</text>
+<text x="723" y="452" fill="#ECF3FB" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="400" class="info" >Architecture · Testing · Security</text>
+<path d="M 565 489 H 1132" stroke="#2B445D" stroke-width="2"/>
+<text x="565" y="516" fill="#78CBF6" font-family="'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="16" font-weight="600" class="" >~/engineering $ build --with-purpose</text>
+<rect x="973" y="502" width="10" height="17" rx="1" fill="#D9F6EA" class="cursor"/>
+<g clip-path="url(#screen)"><rect x="53" y="142" width="439" height="2" fill="#7DE0BF" opacity=".3" class="scan"/></g>
+</svg>
